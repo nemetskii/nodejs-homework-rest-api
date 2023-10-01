@@ -3,7 +3,7 @@ import path from 'path';
 import { nanoid } from 'nanoid';
 
 const contactsPath = path.resolve('models', 'contacts', 'contacts.json');
-import { HttpError } from '../../helpers/index.js';
+import HttpError from '../../helpers/index.js';
 
 const listContacts = async () => {
   try {
